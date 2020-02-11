@@ -1,0 +1,21 @@
+INI file parser
+
+
+Implement INI file parser. 
+Consider having multiple sections and comments in *.ini file. 
+For this task you can not use configparser module from Python's standard library.
+
+
+
+Requirements:
+
+
+support for missing first section 
+validation of INI format
+access to the 
+section and it's content using subscription ([] protocol)
+
+sections and key-value pairs must be accessible using following syntax: parser['section', 'key'] 
+
+the result of section access must be dictionary containing key-value pairs of that section.
+During parsing the parser must follow all rules of INI structure.
